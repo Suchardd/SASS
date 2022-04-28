@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+$color: aqua;
+
+header {
+    background-color: $color;
+    nav {
+        text-align: center;
+        a {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            &:hover{
+                color: $color;
+            }
+        }
+    }
+}
